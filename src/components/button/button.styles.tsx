@@ -1,0 +1,31 @@
+import styled from 'styled-components';
+
+export const StyledButton = styled.button`
+  padding: 0px;
+  margin: 0px;
+  background-color: ${(props) => props.theme.colors.primary};
+  color: white;
+  cursor: pointer;
+  outline: 0;
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 0;
+  min-height: 0px;
+  min-width: 80px;
+  border-radius: 5px;
+  height: 60px;
+  justify-content: center;
+  padding: 19px 24px;
+  opacity: 1;
+  max-width: 100%;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  visibility: visible;
+  text-size-adjust: none;
+`;
